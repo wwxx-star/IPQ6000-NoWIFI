@@ -11,7 +11,9 @@
 #
 #git clone  https://github.com/rufengsuixing/luci-app-adguardhome  package/luci-app-adguardhome
 #git clone https://github.com/muink/openwrt-packages  package/openwrt-packages
-git clone https://github.com/wwxx-star/openwrt-packages1  package/openwrt-packages
+# #git clone https://github.com/wwxx-star/openwrt-packages1  package/openwrt-packages
+# #git clone https://github.com/yfdoor/OpenWrt-Packages.git package/yfdoorg
+git clone https://github.com/haiibo/openwrt-packages package/haiibo
 ./scripts/feeds update -a && ./scripts/feeds install -a
 
 # Modify default IP
