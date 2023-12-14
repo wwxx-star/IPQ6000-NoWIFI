@@ -21,3 +21,5 @@ sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai
 #sed -i '/set wireless.radio${devidx}.disabled/d' /lib/wifi/mac80211.sh
 #wifi up
 git clone  https://github.com/rufengsuixing/luci-app-adguardhome  package/luci-app-adguardhome
+#git clone https://github.com/muink/openwrt-packages  package/openwrt-packages
+./scripts/feeds update -a && ./scripts/feeds install -a
