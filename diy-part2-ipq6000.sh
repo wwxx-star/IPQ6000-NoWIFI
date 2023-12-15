@@ -20,6 +20,7 @@ git clone  https://github.com/rufengsuixing/luci-app-adguardhome  package/luci-a
 # #git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # #git clone  https://github.com/kenzok8/openwrt-packages.git  package/kenzo
 git clone  https://github.com/kenzok8/small.git  package/small
+# #git clone https://github.com/x1906/openwrt-packages  package/openwrt-packages
 
 ./scripts/feeds update -a && ./scripts/feeds install -a
 
