@@ -34,4 +34,4 @@ sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai
 #sed -i '/option disabled/d' /etc/config/wireless
 #sed -i '/set wireless.radio${devidx}.disabled/d' /lib/wifi/mac80211.sh
 #wifi up
-
+make package/feeds/luci/luci-base/compile V=99
