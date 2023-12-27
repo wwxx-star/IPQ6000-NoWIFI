@@ -11,7 +11,7 @@
 #
 # git clone  https://github.com/rufengsuixing/luci-app-adguardhome  package/luci-app-adguardhome
 # #git clone https://github.com/muink/openwrt-packages  package/openwrt-packages
- # #git clone https://github.com/wwxx-star/openwrt-packages1  package/openwrt-packages
+git clone https://github.com/wwxx-star/openwrt-packages1  package/openwrt-packages
 # #git clone https://github.com/yfdoor/OpenWrt-Packages.git package/yfdoorg
 # #git clone https://github.com/haiibo/openwrt-packages package/haiibo
 # #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
@@ -20,7 +20,7 @@
 # #git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # #git clone  https://github.com/kenzok8/openwrt-packages.git  package/kenzo
 # git clone  https://github.com/kenzok8/small.git  package/small
-git clone https://github.com/x1906/openwrt-packages  package/openwrt-packages
+ # #git clone https://github.com/x1906/openwrt-packages  package/openwrt-packages
 
 ./scripts/feeds update -a && ./scripts/feeds install -a
 
