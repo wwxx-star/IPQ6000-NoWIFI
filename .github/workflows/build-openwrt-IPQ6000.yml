@@ -20,7 +20,7 @@ on:
         默认: 'false'
 
 env:
-  REPO_URL: https://github.com/wwxx-star/lede
+  REPO_URL: https://github.com/wwxx-star/openwrt-gl-ax1800
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config-ipq6000.cfg
