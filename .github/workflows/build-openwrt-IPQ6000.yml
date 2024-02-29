@@ -20,8 +20,8 @@ on:
         默认: 'false'
 
 env:
-  REPO_URL: https://github.com/bkspc/backspacewrt
-  REPO_BRANCH: main
+  REPO_URL: https://github.com/immortalwrt-collections/lean-lede
+  REPO_BRANCH: lede
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config-ipq6000.cfg
   DIY_P1_SH: diy-part1-ipq6000.sh
