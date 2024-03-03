@@ -20,7 +20,7 @@ on:
         默认: 'false'
 
 env:
-  REPO_URL: https://github.com/wwxx-star/ipq60xx
+  REPO_URL: https://github.com/wwxx-star/ax18usb
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config-ipq6000.cfg
